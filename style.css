@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: gray;
+}
+
+.inner-container {
+    outline: 5px solid orange;
+    width: 660px;
+    /* height: 333px; */
+    background-color: #b3b3b3;
+    text-align: center;
+    position: relative;
+}
+
+.inner-container .pad {
+    width: 330px;
+    height: 300px;
+    display: inline-block;
+    margin: 20px
+}
+
+.inner-container .pad .drum-pad {
+    border-radius: 5px;
+    position: relative;
+    margin-right: 10px;
+    width: 90px;
+    height: 90px;
+    float: left;
+    padding-top: 35px;
+    box-sizing: border-box;
+    cursor: pointer;
+
+
+}
+
+.drum-pad {
+    background-color: gray;
+    box-shadow: black 3px 3px 5px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* .logo{
+    font-size:22px ;
+    position: absolute;
+    right: 10px;
+} */
+.inner-container .logo {
+    left: 577px;
+    right: 7px;
+    position: absolute;
+    display: inline-block;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.inner-container .logo .logos {
+    position: absolute;
+    display: inline-block;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.inner-container .volume-container {
+    width: 240px;
+    height: 272px;
+    display: inline-block;
+    margin: 40px 20px 0 10px;
+    vertical-align: top;
+}
+
+.inner-container .volume-container .control {
+    width: 100px;
+    margin: auto;
+}
+
+.inner-container .volume-container .control .select {
+    margin: auto;
+    border: 1px solid black;
+    width: 50px;
+    height: 20px;
+    padding: 1px;
+    background-color: black;
+}
+
+.inner-container .volume-container .control .select .upper-inner {
+    width: 23px;
+    height: 19px;
+    background: blue;
+    border: 1px solid black;
+    box-sizing: border-box;
+    cursor: pointer;
+    float: right;
+}
+
+.inner-container .volume-container .control .select .lower-inner {
+    width: 23px;
+    height: 19px;
+    background: blue;
+    border: 1px solid black;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.inner-container .volume-container #display {
+    width: 180px;
+    font-weight: 900;
+    background-color: grey;
+    padding: 15px;
+    margin: 15px auto;
+    box-sizing: border-box;
+
+}
+
+[type="range"] {
+    margin: 12px 0;
+    width: 100%;
+}
+
+input[type="range" i] {
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {    
+    .inner-container {
+        width: 360px;
+        /* height: 333px; */
+        /* margin: 330px auto; */
+        /* margin-bottom: 330px; */
+    }
+    
+    .inner-container .pad {
+        width: 230px;
+        height: 130px;
+    }
+    
+    .inner-container .pad .drum-pad {
+        width: 60px;
+        height: 60px;
+    }
+
+    .inner-container .logo {
+        left: 287px;
+        right: 7px;
+    }
+    .inner-container .volume-container .control .power {
+        margin-top: 34px;
+    }
+    
+}
+ 

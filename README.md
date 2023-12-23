@@ -42,8 +42,5 @@ The drum sounds used in this project are sourced from FreeCodeCamp's drum kit li
 
 Contributions are welcome! If you have any ideas for improvements or find any issues, feel free to open an issue or submit a pull request.
 
-## Usage
-
-1. Clone the repository:
-   ```bash
-    git clone https://sandhyakumari543.github.io/Drum-Machine_js/
+## DEMO
+ https://sandhyakumari543.github.io/Drum-Machine_js/
